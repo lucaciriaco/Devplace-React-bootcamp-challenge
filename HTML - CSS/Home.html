@@ -1,0 +1,347 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automarket</title>
+    <link rel="icon" href="images/coche.png">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="sweetalert2.all.min.js"></script>
+</head>
+
+<body position: relative>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/coche.png" alt="" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="#">Automarket</a>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#scrollspyHeading1">Modelos</a>
+                    <a class="nav-link" href="#scrollspyHeading2">Planes</a>
+                    <a class="nav-link" href="#scrollspyHeading3">Quienes somos</a>
+                    <a class="nav-link" href="#scrollspyHeading4">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/car1.jpg" class="d-block w-100" alt="Auto 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Nuevo Yaris</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/car2.jpg" class="d-block w-100" alt="Auto 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>GT'86 la mejor sport coupe del mercado</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/car3.jpg" class="d-block w-100" alt="Auto 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Conoce nuestro auto hibrido Prius</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/car4.jpg" class="d-block w-100" alt="Auto 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Servicio tecnico dedicado</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container">
+    </header>
+
+
+
+
+
+    <div class="container">
+        <div class="mx-auto text-center">
+            <h1 class="display-4 fw-normal" id="scrollspyHeading1">Modelos</h1>
+            <p class="fs-5 text-muted">Tenemos un auto justo para vos</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">YARIS</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">COROLLA GR-SPORT</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="#">
+                        <img src="images/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">PRIUS</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">C-HR</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">GT '86</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">INNOVA</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">GR-SPORT 2021</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">HIACE FURGÓN</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-3" id="scrollspyHeading2">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Planes Automarket</h1>
+            <p class="fs-5 text-muted">Automarket ofrece un excelente medio para acceder a tú coche nuevo mediante el
+                sistema de ahorro previo.
+                Mediante nuestro compromiso con la calidad y el respeto, buscamos exceder las expectativas en la
+                experiencia de compra de nuestros clientes, a través de un Plan de Ahorro.
+            </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Plan 1</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/Meses</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plazo:</li>
+                            <li>Precio publico:</li>
+                            <li>Cuota total:</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Consultar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Plan 2</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/Meses</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plazo:</li>
+                            <li>Precio publico:</li>
+                            <li>Cuota total:</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Consultar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Plan 3</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/Meses</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plazo:</li>
+                            <li>Precio publico:</li>
+                            <li>Cuota total:</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container col-xxl-8 px-4 py-5" id="scrollspyHeading3">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="Images/Dealership5.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Quienes somos <i class="bi bi-person-badge-fill"></i></h1>
+                <p class="lead">Somos una empresa ficticia creada por Devplace para evaluar los conocimientos de los
+                    postulantes del bootcamp para determinar quienes tiene los conocimientos necesarios para participar
+                    del
+                    bootcamp. <br>
+                    Nuestra mision es hacer un challenge practico que Luca sabe los conocimientos necesarios de
+                    maquetacion web (Ej: HTML, CSS y
+                    Javascript) para que el ser parte del bootcamp, egresarse y luego ayudarle a conseguir trabajo de
+                    front end
+                    developer.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="display-5 fw-bold lh-1 mb-3 text-center">Contacto <i class="bi bi-chat-text-fill"></i></i></h2>
+        <form>
+            <div class="row">
+                <div class="col">
+
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="basic-url" class="form-label">Provincia</label>
+                        <select class="form-select" aria-label="Select provincia">
+                            <option selected>Elegi una provincia</option>
+                            <option value="1">Buenos Aires</option>
+                            <option value="2">Capital Federal</option>
+                            <option value="3">Catamarca</option>
+                            <option value="4">Chaco</option>
+                            <option value="5">Chubut</option>
+                            <option value="6">Córdoba</option>
+                            <option value="7">Corrientes</option>
+                            <option value="8">Entre Ríos</option>
+                            <option value="9">Formosa</option>
+                            <option value="10">Jujuy</option>
+                            <option value="11">La Pampa</option>
+                            <option value="12">La Rioja</option>
+                            <option value="13">Mendoza</option>
+                            <option value="14">Misiones</option>
+                            <option value="15">Neuquén</option>
+                            <option value="16">Río Negro</option>
+                            <option value="17">Salta</option>
+                            <option value="18">San Juan</option>
+                            <option value="19">San Luis</option>
+                            <option value="20">Santa Cruz</option>
+                            <option value="21">Santa Fe</option>
+                            <option value="22">Santiago del Estero</option>
+                            <option value="23">Tierra del Fuego</option>
+                            <option value="24">Tucumán</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="InputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Textarea1" class="form-label">Texto de contacto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-5">
+                    <h5>Automarket Buenos aires</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><i class="bi bi-geo-alt-fill"></i>Av Olazabal 1280, Belgrano CABA</li>
+                        <li class="nav-item mb-2"><i class="bi bi-telephone-fill"></i>Telefono: 1234567</li>
+                        <li class="nav-item mb-2"><i class="bi bi-envelope-open-fill"></i>Mail: automarket@mail.com</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>© Automarket 2021</p>
+                <p>Hecho por</p>
+                <a href="https://github.com/lucaciriaco">Luca Ciriaco</a>
+                <p>para</p>
+                <a href="https://devplace.com.ar/ReactJs.aspx">Bootcamp de React de Devplace</a>
+            </div>
+        </footer>
+    </div>
+</body>
